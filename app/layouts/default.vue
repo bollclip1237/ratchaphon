@@ -13,7 +13,6 @@
           <li><NuxtLink to="/">หน้าหลัก</NuxtLink></li>
           <li><NuxtLink to="/base/about">ข้อมูลบุคลากร</NuxtLink></li>
           <li><NuxtLink to="/base/student">ข้อมูลนักเรียน</NuxtLink></li>
-          <li><NuxtLink to="/base/activity">ข้อมูลกิจกรรม</NuxtLink></li>
         </ul>
 
         <!-- ขวาสุด: ข้อมูลผู้จัดทำ -->
