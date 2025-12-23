@@ -71,5 +71,3 @@ const acts = await $fetch(`${process.env.NUXT_PUBLIC_API_URL}/api/activity?statu
   line-height: 1.6;
 }
 </style>
-
-<script setup> let acts = { data: [] } try { acts = await $fetch(`${process.env.NUXT_PUBLIC_API_URL}/api/activity?status=1&limit=6`) } catch (error) { console.error('Fetch failed:', error) } </script>
