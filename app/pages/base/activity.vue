@@ -1,5 +1,5 @@
 <script setup>
-const acts = await $fetch("http://www.rvc.ac.th:9000/api/activity?status=1&limit=6")
+const acts = await $fetch(`${process.env.NUXT_PUBLIC_API_URL}/api/activity?status=1&limit=6`)
 </script>
 
 <template>
